@@ -1,0 +1,31 @@
+{
+  "name": "webesrverexample",
+  "version": "1.0.0",
+  "description": "Ejemplo de la creacion de un servidor web. Utilizando Node.js Express. EJS.",
+  "keywords": [
+    "WebServer",
+    "NodeJs",
+    "Express",
+    "EJS"
+  ],
+  "homepage": "https://github.com/IanRot/webserverExample#readme",
+  "bugs": {
+    "url": "https://github.com/IanRot/webserverExample/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanRot/webserverExample.git"
+  },
+  "license": "MIT",
+  "author": "Jose Luis Mañon",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "",
+    "dev": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
