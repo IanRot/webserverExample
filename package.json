@@ -22,10 +22,15 @@
   "main": "app.js",
   "scripts": {
     "start": "",
-    "dev": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "ejs": "^4.0.1",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+    
   }
 }
